@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN Validation</title>
+    <style>
+        input{
+
+            width: 400px;
+            height: 50px;
+        }
+        button{
+
+            width: 200px;
+            height: 50px;
+            font-size: large;
+            font-weight: bold;
+        }
+        label,input{
+            font-size:x-large;
+            font-weight: bold; 
+            text-align: center;
+        }
+
+        h1, form{
+
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Welcome to CDSL</h1><br><br><br><br><br>
+    <form>
+        <label for="pan-number"> PAN NUMBER</label><br>
+        <input type="text" id="pan-number" width="400px" height="200px" placeholder="Ex: ABCDE1234Z"><br><br>
+        <button onclick="validatePAN()"> Validate</button>
+    </form>
+
+    <script src="PANCardValidation.js"></script>
+</body>
+</html>
