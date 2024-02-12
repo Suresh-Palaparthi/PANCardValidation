@@ -31,10 +31,12 @@
 </head>
 <body>
     <h1> Welcome to CDSL</h1><br><br><br><br><br>
-    <form>
+    <form id="pan-form">
         <label for="pan-number"> PAN NUMBER</label><br>
-        <input type="text" id="pan-number" width="400px" height="200px" placeholder="Ex: ABCDE1234Z"><br><br>
-        <button onclick="validatePAN()"> Validate</button>
+        <input type="text" id="pan-number" width="400px" height="200px" placeholder="Ex: ABCDE1234Z">
+        <p></p>
+        <br><br>
+        <button onclick="validatePAN()" type="submit"> Validate</button>
     </form>
 
     <script src="PANCardValidation.js"></script>
